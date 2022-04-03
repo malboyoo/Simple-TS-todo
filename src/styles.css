@@ -62,7 +62,7 @@ li input {
    width: 550px;
    border: 2px solid black;
    border-radius: 5px;
-   padding: 20px;
+   padding: 20px 5px;
    display: flex;
    flex-direction: column;
    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
@@ -99,4 +99,26 @@ li .todo {
 
 li .todo.done {
    background-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+   .container {
+      width: 95%;
+   }
+   li input {
+      margin-right: 5px;
+   }
+   button {
+      padding: 10px 5px;
+   }
+
+   ul li button:first-of-type {
+      margin-right: 5px;
+   }
+   button {
+      font-size: 0.8em;
+   }
+   p {
+      font-size: 0.9em;
+   }
 }
