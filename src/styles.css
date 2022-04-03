@@ -101,7 +101,7 @@ li .todo.done {
    background-color: green;
 }
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 500px) {
    .container {
       width: 95%;
    }
