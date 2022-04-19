@@ -8,9 +8,11 @@ const todos = [];
 // history.state
 
 // loadingthe history.state
-history.state.forEach((todo) => {
-   todos.push(todo);
-});
+if (history.state) {
+   history.state.forEach((todo) => {
+      todos.push(todo);
+   });
+}
 
 // saving the history
 setInterval(() => {
