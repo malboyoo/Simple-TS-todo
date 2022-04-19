@@ -613,9 +613,12 @@ const ul = document.querySelector(".container ul");
 const todos = []; // history.state
 // loadingthe history.state
 
-history.state.forEach(todo => {
-  todos.push(todo);
-}); // saving the history
+if (history.state) {
+  history.state.forEach(todo => {
+    todos.push(todo);
+  });
+} // saving the history
+
 
 setInterval(() => {
   history.pushState(todos, "");
