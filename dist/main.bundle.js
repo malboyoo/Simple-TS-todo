@@ -610,15 +610,17 @@ __webpack_require__.r(__webpack_exports__);
 const input = document.querySelector(".container input");
 const form = document.querySelector("form");
 const ul = document.querySelector(".container ul");
-const todos = [{
-  text: "Je suis une todo",
-  done: false,
-  editMode: true
-}, {
-  text: "clickez moi!",
-  done: true,
-  editMode: false
-}];
+const todos = []; // history.state
+// loadingthe history.state
+
+history.state.forEach(todo => {
+  todos.push(todo);
+}); // saving the history
+
+setInterval(() => {
+  history.pushState(todos, "");
+  console.log(history.state);
+}, 3000);
 
 const displaytodo = () => {
   const todoNode = todos.map((todo, index) => {
