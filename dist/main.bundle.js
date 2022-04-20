@@ -610,26 +610,29 @@ __webpack_require__.r(__webpack_exports__);
 const input = document.querySelector(".container input");
 const form = document.querySelector("form");
 const ul = document.querySelector(".container ul");
-const todos = []; // history.state
-// loadingthe history.state
+let todos = []; // systeme de sauvegarde utilisant le localStorage:
 
-if (history.state) {
-  history.state.forEach(todo => {
+const refreshStoredTodos = () => {
+  localStorage.setItem("todos", JSON.stringify(todos));
+}; // on initialise les todos sauvegardé dans le localstorage au lancement de la page
+
+
+let savedTodos = JSON.parse(localStorage.getItem("todos"));
+
+if (savedTodos) {
+  savedTodos.forEach(todo => {
     todos.push(todo);
+    console.log(todo);
   });
-} // saving the history
-
-
-setInterval(() => {
-  history.pushState(todos, "");
-  console.log(history.state);
-}, 3000);
+}
 
 const displaytodo = () => {
   const todoNode = todos.map((todo, index) => {
     if (todo.editMode == false) {
+      refreshStoredTodos();
       return createTodoElement(todo, index);
     } else {
+      refreshStoredTodos();
       return editTodoElement(todo, index);
     }
   });
@@ -668,9 +671,9 @@ const createTodoElement = (todo, index) => {
   const buttonDelete = document.createElement("button");
   buttonDelete.textContent = "Supprimer";
   buttonDelete.addEventListener("click", event => {
-    // deleteTodo(index);
     todos.splice(index, 1);
     displaytodo();
+    refreshStoredTodos();
     event.stopPropagation();
   }); // button modifier
 
@@ -708,11 +711,7 @@ const addTodo = text => {
     editMode: false
   });
   displaytodo();
-}; // const deleteTodo = (index) => {
-//    todos.splice(index, 1);
-//    displaytodo();
-// };
-
+};
 
 const toggleTodo = index => {
   todos[index].done = todos[index].done ? false : true;
