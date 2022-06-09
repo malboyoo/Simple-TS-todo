@@ -2,26 +2,26 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/styles.css":
-/*!**************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
-  \**************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/style/styles.css":
+/*!********************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/style/styles.css ***!
+  \********************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* générique */\r\n\r\n* {\r\n   box-sizing: border-box;\r\n}\r\n\r\nh1 {\r\n   font-family: \"Bebas Neue\", cursive;\r\n   font-size: 3em;\r\n}\r\n\r\nbody {\r\n   min-height: 100vh;\r\n   display: flex;\r\n   flex-flow: column nowrap;\r\n   justify-content: center;\r\n   align-items: center;\r\n   background-color: #333;\r\n   margin: 0;\r\n}\r\n\r\nform {\r\n   margin-bottom: 20px;\r\n   display: flex;\r\n}\r\n\r\nbutton {\r\n   padding: 10px;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n   font-weight: bold;\r\n   font-size: 0.9em;\r\n   cursor: pointer;\r\n}\r\n\r\nul li button:first-of-type {\r\n   margin-right: 15px;\r\n}\r\n\r\nform input {\r\n   flex: 1;\r\n   margin-right: 15px;\r\n   padding: 10px;\r\n   outline: 0;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n}\r\n\r\nli input {\r\n   flex: 1;\r\n   margin-right: 10px;\r\n   padding: 10px;\r\n   outline: 0;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n}\r\n\r\n.container {\r\n   width: 550px;\r\n   border: 2px solid black;\r\n   border-radius: 5px;\r\n   padding: 20px;\r\n   display: flex;\r\n   flex-direction: column;\r\n   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);\r\n}\r\n\r\n.container p {\r\n   margin: 0;\r\n   font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n   font-style: italic;\r\n}\r\n\r\nul {\r\n   padding: 0;\r\n   list-style: none;\r\n}\r\n\r\nli {\r\n   display: flex;\r\n   align-items: center;\r\n   margin: 10px 0;\r\n}\r\n\r\nli p {\r\n   flex: 1;\r\n}\r\n\r\nli .todo {\r\n   flex: 0 0 20px;\r\n   height: 20px;\r\n   border-radius: 30px;\r\n   margin-right: 15px;\r\n   border: 2px solid green;\r\n}\r\n\r\nli .todo.done {\r\n   background-color: green;\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n   .container {\r\n      width: 95%;\r\n      padding: 20px 5px;\r\n   }\r\n   li input {\r\n      margin-right: 5px;\r\n   }\r\n   button {\r\n      padding: 10px 5px;\r\n   }\r\n\r\n   ul li button:first-of-type {\r\n      margin-right: 5px;\r\n   }\r\n   button {\r\n      font-size: 0.8em;\r\n   }\r\n   p {\r\n      font-size: 0.9em;\r\n   }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA,cAAc;;AAEd;GACG,sBAAsB;AACzB;;AAEA;GACG,kCAAkC;GAClC,cAAc;AACjB;;AAEA;GACG,iBAAiB;GACjB,aAAa;GACb,wBAAwB;GACxB,uBAAuB;GACvB,mBAAmB;GACnB,sBAAsB;GACtB,SAAS;AACZ;;AAEA;GACG,mBAAmB;GACnB,aAAa;AAChB;;AAEA;GACG,aAAa;GACb,mBAAmB;GACnB,sBAAsB;GACtB,kBAAkB;GAClB,iBAAiB;GACjB,gBAAgB;GAChB,eAAe;AAClB;;AAEA;GACG,kBAAkB;AACrB;;AAEA;GACG,OAAO;GACP,kBAAkB;GAClB,aAAa;GACb,UAAU;GACV,mBAAmB;GACnB,sBAAsB;GACtB,kBAAkB;AACrB;;AAEA;GACG,OAAO;GACP,kBAAkB;GAClB,aAAa;GACb,UAAU;GACV,mBAAmB;GACnB,sBAAsB;GACtB,kBAAkB;AACrB;;AAEA;GACG,YAAY;GACZ,uBAAuB;GACvB,kBAAkB;GAClB,aAAa;GACb,aAAa;GACb,sBAAsB;GACtB,2EAA2E;AAC9E;;AAEA;GACG,SAAS;GACT,gDAAgD;GAChD,kBAAkB;AACrB;;AAEA;GACG,UAAU;GACV,gBAAgB;AACnB;;AAEA;GACG,aAAa;GACb,mBAAmB;GACnB,cAAc;AACjB;;AAEA;GACG,OAAO;AACV;;AAEA;GACG,cAAc;GACd,YAAY;GACZ,mBAAmB;GACnB,kBAAkB;GAClB,uBAAuB;AAC1B;;AAEA;GACG,uBAAuB;AAC1B;;AAEA;GACG;MACG,UAAU;MACV,iBAAiB;GACpB;GACA;MACG,iBAAiB;GACpB;GACA;MACG,iBAAiB;GACpB;;GAEA;MACG,iBAAiB;GACpB;GACA;MACG,gBAAgB;GACnB;GACA;MACG,gBAAgB;GACnB;AACH","sourcesContent":["/* générique */\r\n\r\n* {\r\n   box-sizing: border-box;\r\n}\r\n\r\nh1 {\r\n   font-family: \"Bebas Neue\", cursive;\r\n   font-size: 3em;\r\n}\r\n\r\nbody {\r\n   min-height: 100vh;\r\n   display: flex;\r\n   flex-flow: column nowrap;\r\n   justify-content: center;\r\n   align-items: center;\r\n   background-color: #333;\r\n   margin: 0;\r\n}\r\n\r\nform {\r\n   margin-bottom: 20px;\r\n   display: flex;\r\n}\r\n\r\nbutton {\r\n   padding: 10px;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n   font-weight: bold;\r\n   font-size: 0.9em;\r\n   cursor: pointer;\r\n}\r\n\r\nul li button:first-of-type {\r\n   margin-right: 15px;\r\n}\r\n\r\nform input {\r\n   flex: 1;\r\n   margin-right: 15px;\r\n   padding: 10px;\r\n   outline: 0;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n}\r\n\r\nli input {\r\n   flex: 1;\r\n   margin-right: 10px;\r\n   padding: 10px;\r\n   outline: 0;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n}\r\n\r\n.container {\r\n   width: 550px;\r\n   border: 2px solid black;\r\n   border-radius: 5px;\r\n   padding: 20px;\r\n   display: flex;\r\n   flex-direction: column;\r\n   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);\r\n}\r\n\r\n.container p {\r\n   margin: 0;\r\n   font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n   font-style: italic;\r\n}\r\n\r\nul {\r\n   padding: 0;\r\n   list-style: none;\r\n}\r\n\r\nli {\r\n   display: flex;\r\n   align-items: center;\r\n   margin: 10px 0;\r\n}\r\n\r\nli p {\r\n   flex: 1;\r\n}\r\n\r\nli .todo {\r\n   flex: 0 0 20px;\r\n   height: 20px;\r\n   border-radius: 30px;\r\n   margin-right: 15px;\r\n   border: 2px solid green;\r\n}\r\n\r\nli .todo.done {\r\n   background-color: green;\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n   .container {\r\n      width: 95%;\r\n      padding: 20px 5px;\r\n   }\r\n   li input {\r\n      margin-right: 5px;\r\n   }\r\n   button {\r\n      padding: 10px 5px;\r\n   }\r\n\r\n   ul li button:first-of-type {\r\n      margin-right: 5px;\r\n   }\r\n   button {\r\n      font-size: 0.8em;\r\n   }\r\n   p {\r\n      font-size: 0.9em;\r\n   }\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* générique */\r\n\r\n* {\r\n   box-sizing: border-box;\r\n}\r\n\r\nh1 {\r\n   font-family: \"Bebas Neue\", cursive;\r\n   font-size: 3em;\r\n}\r\n\r\nbody {\r\n   min-height: 100vh;\r\n   display: flex;\r\n   flex-flow: column nowrap;\r\n   justify-content: center;\r\n   align-items: center;\r\n   background-color: #333;\r\n   margin: 0;\r\n}\r\n\r\nform {\r\n   margin-bottom: 20px;\r\n   display: flex;\r\n}\r\n\r\nbutton {\r\n   padding: 10px;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n   font-weight: bold;\r\n   font-size: 0.9em;\r\n   cursor: pointer;\r\n}\r\n\r\nul li button:first-of-type {\r\n   margin-right: 15px;\r\n}\r\n\r\nform input {\r\n   flex: 1;\r\n   margin-right: 15px;\r\n   padding: 10px;\r\n   outline: 0;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n}\r\n\r\nli input {\r\n   flex: 1;\r\n   margin-right: 10px;\r\n   padding: 10px;\r\n   outline: 0;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n}\r\n\r\n.container {\r\n   width: 550px;\r\n   border: 2px solid black;\r\n   border-radius: 5px;\r\n   padding: 20px;\r\n   display: flex;\r\n   flex-direction: column;\r\n   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);\r\n}\r\n\r\n.container p {\r\n   margin: 0;\r\n   font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n   font-style: italic;\r\n}\r\n\r\nul {\r\n   padding: 0;\r\n   list-style: none;\r\n}\r\n\r\nli {\r\n   display: flex;\r\n   align-items: center;\r\n   margin: 10px 0;\r\n}\r\n\r\nli p {\r\n   flex: 1;\r\n}\r\n\r\nli .todo {\r\n   flex: 0 0 20px;\r\n   height: 20px;\r\n   border-radius: 30px;\r\n   margin-right: 15px;\r\n   border: 2px solid green;\r\n}\r\n\r\nli .todo.done {\r\n   background-color: green;\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n   .container {\r\n      width: 95%;\r\n      padding: 20px 5px;\r\n   }\r\n   li input {\r\n      margin-right: 5px;\r\n   }\r\n   button {\r\n      padding: 10px 5px;\r\n   }\r\n\r\n   ul li button:first-of-type {\r\n      margin-right: 5px;\r\n   }\r\n   button {\r\n      font-size: 0.8em;\r\n   }\r\n   p {\r\n      font-size: 0.9em;\r\n   }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style/styles.css"],"names":[],"mappings":"AAAA,cAAc;;AAEd;GACG,sBAAsB;AACzB;;AAEA;GACG,kCAAkC;GAClC,cAAc;AACjB;;AAEA;GACG,iBAAiB;GACjB,aAAa;GACb,wBAAwB;GACxB,uBAAuB;GACvB,mBAAmB;GACnB,sBAAsB;GACtB,SAAS;AACZ;;AAEA;GACG,mBAAmB;GACnB,aAAa;AAChB;;AAEA;GACG,aAAa;GACb,mBAAmB;GACnB,sBAAsB;GACtB,kBAAkB;GAClB,iBAAiB;GACjB,gBAAgB;GAChB,eAAe;AAClB;;AAEA;GACG,kBAAkB;AACrB;;AAEA;GACG,OAAO;GACP,kBAAkB;GAClB,aAAa;GACb,UAAU;GACV,mBAAmB;GACnB,sBAAsB;GACtB,kBAAkB;AACrB;;AAEA;GACG,OAAO;GACP,kBAAkB;GAClB,aAAa;GACb,UAAU;GACV,mBAAmB;GACnB,sBAAsB;GACtB,kBAAkB;AACrB;;AAEA;GACG,YAAY;GACZ,uBAAuB;GACvB,kBAAkB;GAClB,aAAa;GACb,aAAa;GACb,sBAAsB;GACtB,2EAA2E;AAC9E;;AAEA;GACG,SAAS;GACT,gDAAgD;GAChD,kBAAkB;AACrB;;AAEA;GACG,UAAU;GACV,gBAAgB;AACnB;;AAEA;GACG,aAAa;GACb,mBAAmB;GACnB,cAAc;AACjB;;AAEA;GACG,OAAO;AACV;;AAEA;GACG,cAAc;GACd,YAAY;GACZ,mBAAmB;GACnB,kBAAkB;GAClB,uBAAuB;AAC1B;;AAEA;GACG,uBAAuB;AAC1B;;AAEA;GACG;MACG,UAAU;MACV,iBAAiB;GACpB;GACA;MACG,iBAAiB;GACpB;GACA;MACG,iBAAiB;GACpB;;GAEA;MACG,iBAAiB;GACpB;GACA;MACG,gBAAgB;GACnB;GACA;MACG,gBAAgB;GACnB;AACH","sourcesContent":["/* générique */\r\n\r\n* {\r\n   box-sizing: border-box;\r\n}\r\n\r\nh1 {\r\n   font-family: \"Bebas Neue\", cursive;\r\n   font-size: 3em;\r\n}\r\n\r\nbody {\r\n   min-height: 100vh;\r\n   display: flex;\r\n   flex-flow: column nowrap;\r\n   justify-content: center;\r\n   align-items: center;\r\n   background-color: #333;\r\n   margin: 0;\r\n}\r\n\r\nform {\r\n   margin-bottom: 20px;\r\n   display: flex;\r\n}\r\n\r\nbutton {\r\n   padding: 10px;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n   font-weight: bold;\r\n   font-size: 0.9em;\r\n   cursor: pointer;\r\n}\r\n\r\nul li button:first-of-type {\r\n   margin-right: 15px;\r\n}\r\n\r\nform input {\r\n   flex: 1;\r\n   margin-right: 15px;\r\n   padding: 10px;\r\n   outline: 0;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n}\r\n\r\nli input {\r\n   flex: 1;\r\n   margin-right: 10px;\r\n   padding: 10px;\r\n   outline: 0;\r\n   border-color: black;\r\n   background-color: #444;\r\n   border-radius: 5px;\r\n}\r\n\r\n.container {\r\n   width: 550px;\r\n   border: 2px solid black;\r\n   border-radius: 5px;\r\n   padding: 20px;\r\n   display: flex;\r\n   flex-direction: column;\r\n   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);\r\n}\r\n\r\n.container p {\r\n   margin: 0;\r\n   font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n   font-style: italic;\r\n}\r\n\r\nul {\r\n   padding: 0;\r\n   list-style: none;\r\n}\r\n\r\nli {\r\n   display: flex;\r\n   align-items: center;\r\n   margin: 10px 0;\r\n}\r\n\r\nli p {\r\n   flex: 1;\r\n}\r\n\r\nli .todo {\r\n   flex: 0 0 20px;\r\n   height: 20px;\r\n   border-radius: 30px;\r\n   margin-right: 15px;\r\n   border: 2px solid green;\r\n}\r\n\r\nli .todo.done {\r\n   background-color: green;\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n   .container {\r\n      width: 95%;\r\n      padding: 20px 5px;\r\n   }\r\n   li input {\r\n      margin-right: 5px;\r\n   }\r\n   button {\r\n      padding: 10px 5px;\r\n   }\r\n\r\n   ul li button:first-of-type {\r\n      margin-right: 5px;\r\n   }\r\n   button {\r\n      font-size: 0.8em;\r\n   }\r\n   p {\r\n      font-size: 0.9em;\r\n   }\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -170,29 +170,29 @@ module.exports = function (item) {
 
 /***/ }),
 
-/***/ "./src/styles.css":
-/*!************************!*\
-  !*** ./src/styles.css ***!
-  \************************/
+/***/ "./src/style/styles.css":
+/*!******************************!*\
+  !*** ./src/style/styles.css ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./styles.css */ "./node_modules/css-loader/dist/cjs.js!./src/styles.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./styles.css */ "./node_modules/css-loader/dist/cjs.js!./src/style/styles.css");
 
       
       
@@ -602,139 +602,154 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 /*!**********************!*\
-  !*** ./src/index.js ***!
+  !*** ./src/index.ts ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ "./src/styles.css");
-
-const input = document.querySelector(".container input");
-const form = document.querySelector("form");
-const ul = document.querySelector(".container ul");
-let todos = []; // systeme de sauvegarde utilisant le localStorage:
-
-const refreshStoredTodos = () => {
-  localStorage.setItem("todos", JSON.stringify(todos));
-}; // on initialise les todos sauvegardé dans le localstorage au lancement de la page
-
-
-let savedTodos = JSON.parse(localStorage.getItem("todos"));
-
-if (savedTodos) {
-  savedTodos.forEach(todo => {
-    todos.push(todo);
-    console.log(todo);
-  });
-}
-
-const displaytodo = () => {
-  const todoNode = todos.map((todo, index) => {
-    if (todo.editMode == false) {
-      refreshStoredTodos();
-      return createTodoElement(todo, index);
-    } else {
-      refreshStoredTodos();
-      return editTodoElement(todo, index);
+/* harmony import */ var _style_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/styles.css */ "./src/style/styles.css");
+var __read = (undefined && undefined.__read) || function (o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
     }
-  });
-  ul.innerHTML = "";
-  ul.append(...todoNode);
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+};
+var __spreadArray = (undefined && undefined.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
 };
 
-const editTodoElement = (todo, index) => {
-  const li = document.createElement("li"); // input
-
-  const input = document.createElement("input");
-  input.setAttribute("maxlength", "50");
-  input.value = todo.text; // save
-
-  const saveButton = document.createElement("button");
-  saveButton.textContent = "Sauvegarder";
-  saveButton.addEventListener("click", event => {
-    saveModification(index, input.value);
-  }); // cancel
-
-  const cancelButton = document.createElement("button");
-  cancelButton.textContent = "Annuler";
-  cancelButton.addEventListener("click", event => {
-    cancelModification(index);
-  }); //li content
-
-  li.appendChild(input);
-  li.appendChild(saveButton);
-  li.appendChild(cancelButton);
-  return li;
+var input = document.querySelector(".container input");
+var form = document.querySelector("form");
+var ul = document.querySelector(".container ul");
+var todos = [];
+// systeme de sauvegarde utilisant le localStorage:
+var refreshStoredTodos = function () {
+    localStorage.setItem("todos", JSON.stringify(todos));
 };
-
-const createTodoElement = (todo, index) => {
-  const li = document.createElement("li"); // button DELETE
-
-  const buttonDelete = document.createElement("button");
-  buttonDelete.textContent = "Supprimer";
-  buttonDelete.addEventListener("click", event => {
-    todos.splice(index, 1);
+// on initialise les todos sauvegardé dans le localstorage au lancement de la page
+var savedTodos = JSON.parse(localStorage.getItem("todos"));
+if (savedTodos) {
+    savedTodos.forEach(function (todo) {
+        todos.push(todo);
+        console.log(todo);
+    });
+}
+var displaytodo = function () {
+    var todoNode = todos.map(function (todo, index) {
+        if (todo.editMode == false) {
+            refreshStoredTodos();
+            return createTodoElement(todo, index);
+        }
+        else {
+            refreshStoredTodos();
+            return editTodoElement(todo, index);
+        }
+    });
+    ul.innerHTML = "";
+    ul.append.apply(ul, __spreadArray([], __read(todoNode), false));
+};
+var editTodoElement = function (todo, index) {
+    var li = document.createElement("li");
+    // input
+    var input = document.createElement("input");
+    input.setAttribute("maxlength", "50");
+    input.value = todo.text;
+    // save
+    var saveButton = document.createElement("button");
+    saveButton.textContent = "Sauvegarder";
+    saveButton.addEventListener("click", function () {
+        saveModification(index, input.value);
+    });
+    // cancel
+    var cancelButton = document.createElement("button");
+    cancelButton.textContent = "Annuler";
+    cancelButton.addEventListener("click", function () {
+        cancelModification(index);
+    });
+    //li content
+    li.appendChild(input);
+    li.appendChild(saveButton);
+    li.appendChild(cancelButton);
+    return li;
+};
+var createTodoElement = function (todo, index) {
+    var li = document.createElement("li");
+    // button DELETE
+    var buttonDelete = document.createElement("button");
+    buttonDelete.textContent = "Supprimer";
+    buttonDelete.addEventListener("click", function (event) {
+        todos.splice(index, 1);
+        displaytodo();
+        refreshStoredTodos();
+        event.stopPropagation();
+    });
+    // button modifier
+    var buttonModify = document.createElement("button");
+    buttonModify.textContent = "Modifier";
+    buttonModify.addEventListener("click", function (event) {
+        switchToEditMode(index);
+        event.stopPropagation();
+    });
+    // paragraphe
+    var p = document.createElement("p");
+    p.textContent = todo.text;
+    // li Content
+    li.innerHTML = "<span class=\"todo ".concat(todo.done ? "done" : "", "\"></span>");
+    li.appendChild(p);
+    li.appendChild(buttonModify);
+    li.appendChild(buttonDelete);
+    li.addEventListener("click", function () {
+        toggleTodo(index);
+    });
+    return li;
+};
+form.addEventListener("submit", function (event) {
+    addTodo(input.value);
     displaytodo();
-    refreshStoredTodos();
-    event.stopPropagation();
-  }); // button modifier
-
-  const buttonModify = document.createElement("button");
-  buttonModify.textContent = "Modifier";
-  buttonModify.addEventListener("click", event => {
-    switchToEditMode(index);
-    event.stopPropagation();
-  }); // paragraphe
-
-  const p = document.createElement("p");
-  p.textContent = todo.text; // li Content
-
-  li.innerHTML = `<span class="todo ${todo.done ? "done" : ""}"></span>`;
-  li.appendChild(p);
-  li.appendChild(buttonModify);
-  li.appendChild(buttonDelete);
-  li.addEventListener("click", event => {
-    toggleTodo(index);
-  });
-  return li;
-};
-
-form.addEventListener("submit", event => {
-  addTodo(input.value);
-  displaytodo();
-  input.value = "";
-  event.preventDefault();
+    input.value = "";
+    event.preventDefault();
 });
-
-const addTodo = text => {
-  todos.push({
-    text: text,
-    done: false,
-    editMode: false
-  });
-  displaytodo();
+var addTodo = function (text) {
+    todos.push({
+        text: text,
+        done: false,
+        editMode: false,
+    });
+    displaytodo();
 };
-
-const toggleTodo = index => {
-  todos[index].done = todos[index].done ? false : true;
-  displaytodo();
+var toggleTodo = function (index) {
+    todos[index].done = todos[index].done ? false : true;
+    displaytodo();
 };
-
-const switchToEditMode = index => {
-  todos[index].editMode = !todos[index].editMode;
-  displaytodo();
+var switchToEditMode = function (index) {
+    todos[index].editMode = !todos[index].editMode;
+    displaytodo();
 };
-
-const saveModification = (index, inputValue) => {
-  todos[index].text = inputValue;
-  todos[index].editMode = false;
-  displaytodo();
+var saveModification = function (index, inputValue) {
+    todos[index].text = inputValue;
+    todos[index].editMode = false;
+    displaytodo();
 };
-
-const cancelModification = index => {
-  todos[index].editMode = false;
-  displaytodo();
+var cancelModification = function (index) {
+    todos[index].editMode = false;
+    displaytodo();
 };
-
 displaytodo();
+
 })();
 
 /******/ })()

@@ -1,9 +1,11 @@
-import "./styles.css";
-const input = document.querySelector(".container input");
-const form = document.querySelector("form");
-const ul = document.querySelector(".container ul");
+import { Todo } from "./interface";
+import "./style/styles.css";
 
-let todos = [];
+const input: HTMLInputElement = document.querySelector(".container input")!;
+const form: HTMLFormElement = document.querySelector("form")!;
+const ul: HTMLUListElement = document.querySelector(".container ul")!;
+
+let todos: Array<Todo> = [];
 
 // systeme de sauvegarde utilisant le localStorage:
 
@@ -12,17 +14,17 @@ const refreshStoredTodos = () => {
 };
 
 // on initialise les todos sauvegardé dans le localstorage au lancement de la page
-let savedTodos = JSON.parse(localStorage.getItem("todos"));
+let savedTodos = JSON.parse(localStorage.getItem("todos")!);
 
 if (savedTodos) {
-   savedTodos.forEach((todo) => {
+   savedTodos.forEach((todo: Todo) => {
       todos.push(todo);
       console.log(todo);
    });
 }
 
 const displaytodo = () => {
-   const todoNode = todos.map((todo, index) => {
+   const todoNode: HTMLLIElement[] = todos.map((todo: Todo, index: number) => {
       if (todo.editMode == false) {
          refreshStoredTodos();
          return createTodoElement(todo, index);
@@ -35,7 +37,7 @@ const displaytodo = () => {
    ul.append(...todoNode);
 };
 
-const editTodoElement = (todo, index) => {
+const editTodoElement = (todo: Todo, index: number): HTMLLIElement => {
    const li = document.createElement("li");
 
    // input
@@ -45,16 +47,16 @@ const editTodoElement = (todo, index) => {
    input.value = todo.text;
 
    // save
-   const saveButton = document.createElement("button");
+   const saveButton: HTMLButtonElement = document.createElement("button");
    saveButton.textContent = "Sauvegarder";
-   saveButton.addEventListener("click", (event) => {
+   saveButton.addEventListener("click", () => {
       saveModification(index, input.value);
    });
 
    // cancel
-   const cancelButton = document.createElement("button");
+   const cancelButton: HTMLButtonElement = document.createElement("button");
    cancelButton.textContent = "Annuler";
-   cancelButton.addEventListener("click", (event) => {
+   cancelButton.addEventListener("click", () => {
       cancelModification(index);
    });
 
@@ -67,13 +69,13 @@ const editTodoElement = (todo, index) => {
    return li;
 };
 
-const createTodoElement = (todo, index) => {
-   const li = document.createElement("li");
+const createTodoElement = (todo: Todo, index: number): HTMLLIElement => {
+   const li: HTMLLIElement = document.createElement("li");
 
    // button DELETE
-   const buttonDelete = document.createElement("button");
+   const buttonDelete: HTMLButtonElement = document.createElement("button");
    buttonDelete.textContent = "Supprimer";
-   buttonDelete.addEventListener("click", (event) => {
+   buttonDelete.addEventListener("click", (event: MouseEvent) => {
       todos.splice(index, 1);
       displaytodo();
       refreshStoredTodos();
@@ -83,7 +85,7 @@ const createTodoElement = (todo, index) => {
    // button modifier
    const buttonModify = document.createElement("button");
    buttonModify.textContent = "Modifier";
-   buttonModify.addEventListener("click", (event) => {
+   buttonModify.addEventListener("click", (event: MouseEvent) => {
       switchToEditMode(index);
       event.stopPropagation();
    });
@@ -98,20 +100,20 @@ const createTodoElement = (todo, index) => {
    li.appendChild(p);
    li.appendChild(buttonModify);
    li.appendChild(buttonDelete);
-   li.addEventListener("click", (event) => {
+   li.addEventListener("click", () => {
       toggleTodo(index);
    });
    return li;
 };
 
-form.addEventListener("submit", (event) => {
+form.addEventListener("submit", (event: Event) => {
    addTodo(input.value);
    displaytodo();
    input.value = "";
    event.preventDefault();
 });
 
-const addTodo = (text) => {
+const addTodo = (text: string) => {
    todos.push({
       text: text,
       done: false,
@@ -120,23 +122,23 @@ const addTodo = (text) => {
    displaytodo();
 };
 
-const toggleTodo = (index) => {
+const toggleTodo = (index: number) => {
    todos[index].done = todos[index].done ? false : true;
    displaytodo();
 };
 
-const switchToEditMode = (index) => {
+const switchToEditMode = (index: number) => {
    todos[index].editMode = !todos[index].editMode;
    displaytodo();
 };
 
-const saveModification = (index, inputValue) => {
+const saveModification = (index: number, inputValue: string) => {
    todos[index].text = inputValue;
    todos[index].editMode = false;
    displaytodo();
 };
 
-const cancelModification = (index) => {
+const cancelModification = (index: number) => {
    todos[index].editMode = false;
    displaytodo();
 };
